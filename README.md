@@ -21,17 +21,17 @@ sudo insmod myled.ko<br>
 sudo chmod 666 /dev/myled0
 ```
 
-# 以下のコマンドで点灯
+以下のコマンドで点灯
 ```bash
 echo 1 > /dev/myled0
 ```
 
-# 以下のコマンドで消灯
+以下のコマンドで消灯
 ```bash
 echo 0 > /dev/myled0
 ```
 
-# ディレクトリの後処理は以下のコマンド
+ディレクトリの後処理は以下のコマンド
 ```bash
 make clean
 ```
