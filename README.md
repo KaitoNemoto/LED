@@ -11,13 +11,18 @@ https://youtu.be/FXtFQuS2jcM
 ・LED　×1<br>
 ・ジャンパー線　×6<br>
 
+# 配線
+![S__161824778](https://user-images.githubusercontent.com/93694888/146308071-0d371c99-d591-437e-950b-7d61a613ff22.jpg)
+
+
+
 # 使い方
 ディレクトリ内で以下のコマンドを実行<br>
 ```bash
-git clone git@github.com:KaitoNemoto/LED.git<br>
-cd myled<br>
-make<br>
-sudo insmod myled.ko<br>
+git clone git@github.com:KaitoNemoto/LED.git
+cd myled
+make
+sudo insmod myled.ko
 sudo chmod 666 /dev/myled0
 ```
 
