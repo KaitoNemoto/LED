@@ -1,6 +1,3 @@
-# myled
-"myled" is a turn on the led with Linux
-
 # デモ
 LEDをつけて消しました。<br>
 https://youtu.be/FXtFQuS2jcM
